@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  width: 300px;
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #0748dd;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+button:hover {
+  background-color: #1713f2;
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+body {
+    background-image: url('https://i.pinimg.com/736x/82/cb/f0/82cbf0891c97d11ad9f5b572ea39ec79.jpg'); /* Replace with your image path */
+    background-size: cover; /* Make image cover whole page */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keeps background fixed while scrolling */
+  }

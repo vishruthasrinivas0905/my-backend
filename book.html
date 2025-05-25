@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Book a Free Gym Class</title>
+  <link rel="stylesheet" href="book.css" />
+</head>
+<body>
+
+  <div class="booking-container">
+    <h2>Hi! Book Your Free Gym Class</h2>
+    <form id="bookingForm">
+      <label for="email">Registered Email:</label><br>
+      <input type="email" id="email" required><br><br>
+
+      <label for="time">Preferred Time:</label><br>
+      <select id="time" required>
+        <option value="">Select a time</option>
+        <option>6:00 AM</option>
+        <option>7:00 AM</option>
+        <option>8:00 AM</option>
+        <option>6:00 PM</option>
+        <option>7:00 PM</option>
+      </select><br><br>
+
+      <button type="submit">Book Now</button>
+    </form>
+
+    <p id="confirmationMessage"></p>
+  </div>
+
+  <script src="book.js"></script>
+</body>
+</html>
